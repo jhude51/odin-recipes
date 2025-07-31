@@ -1,0 +1,72 @@
+body {
+    background-color: beige;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px 50px;
+}
+
+h1 {
+    padding: 100px;
+    text-align: center;
+    background-color: bisque;
+    font-size: 50px;
+}
+
+.recipe {
+    border: 2px solid white;
+    padding: 50px;
+    background-color: blanchedalmond;
+}
+
+.recipe li {
+    display: inline-flex;
+    margin: auto 12%;
+    border: 2px solid white;
+    padding: 30px;
+    background-color: bisque;
+}
+
+.recipe a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+.subheading {
+    padding: 50px;
+}
+
+img {
+    width: 600px;
+    height: 500px;
+    display: flex;
+    margin: auto;
+}
+
+h2 {
+    padding: 30px;
+    text-align: center;
+    background-color: bisque;
+    font-size: 30px;
+}
+
+p {
+    padding: 20px;
+}
+
+.footer {
+    background-color: bisque;
+}
+
+.footer li {
+    display: inline-flex;
+    margin: auto 12%;
+    padding: 20px;
+}
+
+.footer a {
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+}
